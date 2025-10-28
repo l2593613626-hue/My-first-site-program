@@ -1,2 +1,11 @@
-# My-first-site-program
-My applicaition to a site building of a education ( it's just a testing and my first try to catch up my dream preference
+# 我的第一个网站
+
+这是我的个人网站项目，使用HTML、CSS和JavaScript构建。
+
+## 网站功能
+- 个人介绍
+- 项目展示
+- 联系方式
+
+## 如何访问
+访问 [网站地址] 即可查看
