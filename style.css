@@ -1,0 +1,51 @@
+:root {
+  --max-width: 900px;
+  --accent: #2b6cb0;
+  --muted: #666;
+}
+
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  color: #222;
+  line-height: 1.6;
+}
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem;
+}
+.site-header {
+  background: linear-gradient(90deg, #e6f0fb, #ffffff);
+  border-bottom: 1px solid #e8eef8;
+  padding: 2rem 0;
+  text-align: center;
+}
+.tagline { color: var(--muted); margin-top: 0.25rem; }
+h2 { color: var(--accent); margin-top: 1.5rem; }
+
+.site-footer {
+  padding: 1rem 0;
+  text-align: center;
+  color: var(--muted);
+  border-top: 1px solid #eee;
+  margin-top: 2rem;
+}
+
+/* 按钮样式 */
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover { opacity: 0.95; }
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .container { padding: 0.75rem; }
+  .site-header { padding: 1.25rem 0; }
+}
